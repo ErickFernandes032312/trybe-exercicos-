@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  background-color: green;
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+
+#rodape {
+  bottom: 0;
+  position: fixed;
+  font-size: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.licoes_a_aprender {
+  margin-left: 90px;
+}
+
+.avatar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 10px;
+
+}
+
+#minha-biografia {
+  width: 20%;
+}
+
+img {
+  height: 400px;
+  border-radius: 50%;
+  border: 2px solid red;
+
+}
+
+aside {
+  width: 20%;
+}
